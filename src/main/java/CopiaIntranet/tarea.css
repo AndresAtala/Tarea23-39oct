@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    background-color: white;
+    margin: 0px auto;
+    width: 1000px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 470px; /
+}
+
+header {
+    background-color: white;
+    color: darkorange;
+    text-align: center;
+    padding: 0px 0;
+}
+.links-section .forgot-password,
+.links-section .create-password {
+    font-size: 11px; /* Puedes ajustar el valor según tus preferencias */
+}
+
+
+.login-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.login-form {
+    float: left;
+    margin-right: 20px;
+}
+.direccion{
+    margin-top: 85px;
+    margin-left: 150px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+.Soporte{
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+.correo{
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}

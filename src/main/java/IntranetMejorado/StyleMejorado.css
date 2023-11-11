@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+}
+
+.container-top {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 300px;
+    height: 170px;
+}
+
+.Acreditacion img {
+    width: 700px;
+    height: 120px;
+    margin-left: 15px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -30px;
+    position: relative;
+}
+
+#loginForm {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px white;
+    margin-top: 10px;
+}
+
+.input-group {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    width: 93%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+    background: white;
+    color: darkblue;
+}
+
+#loginBtn {
+    font-size: 16px;
+    background: linear-gradient(to bottom, #4CAF50 5%, #45a049 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginBtn:hover {
+    background: linear-gradient(to bottom, #45a049 5%, #4CAF50 100%);
+}
+
+#social-icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#social-icons a:nth-child(1) img {
+    width: 60px;
+    height: 43px;
+}
+
+#social-icons a:nth-child(2) img {
+    width: 60px;
+    height: 43px;
+}
+
+#social-icons a:nth-child(3) img {
+    width: 60px;
+    height: 43px;
+}
+
+#image-slider {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#image-slider img:nth-child(1) {
+    opacity: 1;
+}
+
+#image-slider img:nth-child(2) {
+    animation: slide 8s infinite 4s;
+}
+
+#image-slider img:nth-child(3) {
+    animation: slide 8s infinite 8s;
+}
+
+@keyframes slide {
+    0%, 20% {
+        opacity: 0;
+    }
+    25%, 100% {
+        opacity: 1;
+    }
+}
